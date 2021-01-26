@@ -218,35 +218,12 @@ int main()
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		// -------------------------------------------------------------------------------------------------------------------------
-		// Personaje 1
+		
 		// -------------------------------------------------------------------------------------------------------------------------
 		// don't forget to enable shader before setting uniforms
 		staticShader.use();
-		//Setup Advanced Lights
-		//staticShader.setVec3("viewPos", camera.Position);
-		//staticShader.setVec3("dirLight.direction", lightDirection); //fuente de luz direccional, comportamiento del sol-tierra- fuente inf grande y lejos de nosotros
-		//staticShader.setVec3("dirLight.ambient", glm::vec3(0.0f, 0.0f, 0.0f)); //caras menos iluminadas tienden a color...
-		//staticShader.setVec3("dirLight.diffuse", glm::vec3(1.0f, 1.0f, 1.0f)); //afecta a la cara poligonos
-		//staticShader.setVec3("dirLight.specular", glm::vec3(0.0f, 0.0f, 0.0f)); //brillo en los objetos
-
-		//staticShader.setVec3("pointLight[0].position", lightPosition); //como un foco colocamos una posicion y los rayos salen todas las posiciones
-		//staticShader.setVec3("pointLight[0].ambient", glm::vec3(0.0f, 0.0f, 0.0f)); 
-		//staticShader.setVec3("pointLight[0].diffuse", glm::vec3(1.0f, 1.0f, 1.0f)); //diferentes efectos de color
-		//staticShader.setVec3("pointLight[0].specular", glm::vec3(0.0f, 0.0f, 0.0f)); 
-		//staticShader.setFloat("pointLight[0].constant", 0.8f); // que tan brillosa va a ser --la potencia con la que se ve, es inversa, más cerca del cero es más potente
-		//staticShader.setFloat("pointLight[0].linear", 0.009f); //entre mas pequeños (linear,cuadr) mas van a viajar los rayos luminosos
-		//staticShader.setFloat("pointLight[0].quadratic", 0.032f); //la luz vieja más en el escenario
-
-		//staticShader.setVec3("pointLight[1].position", glm::vec3(15.0, 0.0f, 0.0f));
-		//staticShader.setVec3("pointLight[1].ambient", glm::vec3(1.0f, 1.0f, 1.0f));
-		//staticShader.setVec3("pointLight[1].diffuse", glm::vec3(1.0f, 1.0f, 1.0f));
-		//staticShader.setVec3("pointLight[1].specular", glm::vec3(0.0f, 0.0f, 0.0f));
-		//staticShader.setFloat("pointLight[1].constant", 1.0f);
-		//staticShader.setFloat("pointLight[1].linear", 0.009f);
-		//staticShader.setFloat("pointLight[1].quadratic", 0.032f);
-
-		//staticShader.setFloat("material_shininess", 32.0f);
-		//-------------------------------------------------------------------------------
+		
+		//------------------------------ LUCES --------------------------------------
 		staticShader.setVec3("viewPos", camera.Position);
 		staticShader.setVec3("dirLight.direction", lightDirection);
 		staticShader.setVec3("dirLight.ambient", glm::vec3(0.2f, 0.2f, 0.2f));
@@ -389,8 +366,6 @@ int main()
 		// -------------------------------------------------------------------------------------------------------------------------
 		staticShader.setMat4("projection", projection);
 		staticShader.setMat4("view", view);
-
-
 
 		staticShader.setVec3("material.specular", glm::vec3(0.5f));
 		staticShader.setFloat("material.shininess", 32.0f);
