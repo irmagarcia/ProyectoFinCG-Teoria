@@ -1,0 +1,16 @@
+﻿  main_prac09.cpp
+c:\users\licuadora\documents\visual studio 2017\projects\pf\pf\pf\include\shader_m.h(44): warning C4101: 'e': variable local sin referencia
+c:\users\licuadora\documents\visual studio 2017\projects\pf\pf\pf\include\modelanim.h(104): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\visual studio 2017\projects\pf\pf\pf\include\modelanim.h(520): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\visual studio 2017\projects\pf\pf\pf\main_prac09.cpp(513): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\visual studio 2017\projects\pf\pf\pf\main_prac09.cpp(515): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\visual studio 2017\projects\pf\pf\pf\main_prac09.cpp(517): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\visual studio 2017\projects\pf\pf\pf\main_prac09.cpp(519): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\visual studio 2017\projects\pf\pf\pf\main_prac09.cpp(556): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\visual studio 2017\projects\pf\pf\pf\main_prac09.cpp(557): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\visual studio 2017\projects\pf\pf\pf\main_prac09.cpp(561): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\visual studio 2017\projects\pf\pf\pf\main_prac09.cpp(562): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\visual studio 2017\projects\pf\pf\pf\main_prac09.cpp(564): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\visual studio 2017\projects\pf\pf\pf\main_prac09.cpp(565): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\visual studio 2017\projects\pf\pf\pf\main_prac09.cpp(573): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+  PF.vcxproj -> C:\Users\licuadora\Documents\Visual Studio 2017\Projects\PF\PF\Debug\PF.exe
