@@ -1,0 +1,41 @@
+﻿  glad.c
+  main_prac09.cpp
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\include\shader_m.h(44): warning C4101: 'e': variable local sin referencia
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\include\mesh.h(88): warning C4267: 'argumento': conversión de 'size_t' a 'GLsizei'; posible pérdida de datos
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\include\meshanim.h(116): warning C4267: 'argumento': conversión de 'size_t' a 'GLsizei'; posible pérdida de datos
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\include\modelanim.h(104): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\include\modelanim.h(520): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\main_prac09.cpp(488): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\main_prac09.cpp(490): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\main_prac09.cpp(492): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\main_prac09.cpp(494): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\main_prac09.cpp(531): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\main_prac09.cpp(532): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\main_prac09.cpp(536): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\main_prac09.cpp(537): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\main_prac09.cpp(539): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\main_prac09.cpp(540): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\licuadora\documents\github\proyectofincg-teoria\pf\main_prac09.cpp(548): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+main_prac09.obj : error LNK2001: símbolo externo glfwSwapBuffers sin resolver
+main_prac09.obj : error LNK2001: símbolo externo glfwSetFramebufferSizeCallback sin resolver
+main_prac09.obj : error LNK2001: símbolo externo aiGetMaterialTextureCount sin resolver
+main_prac09.obj : error LNK2001: símbolo externo glfwGetKey sin resolver
+main_prac09.obj : error LNK2001: símbolo externo glfwTerminate sin resolver
+main_prac09.obj : error LNK2001: símbolo externo SDL_Delay sin resolver
+main_prac09.obj : error LNK2001: símbolo externo glfwPollEvents sin resolver
+main_prac09.obj : error LNK2001: símbolo externo glfwInit sin resolver
+main_prac09.obj : error LNK2001: símbolo externo glfwSetWindowShouldClose sin resolver
+main_prac09.obj : error LNK2001: símbolo externo glfwSetScrollCallback sin resolver
+main_prac09.obj : error LNK2001: símbolo externo glfwCreateWindow sin resolver
+main_prac09.obj : error LNK2001: símbolo externo glfwSetInputMode sin resolver
+main_prac09.obj : error LNK2001: símbolo externo glfwMakeContextCurrent sin resolver
+main_prac09.obj : error LNK2001: símbolo externo SDL_GetTicks sin resolver
+main_prac09.obj : error LNK2001: símbolo externo "public: char const * __cdecl Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QEBAPEBDXZ) sin resolver
+main_prac09.obj : error LNK2001: símbolo externo "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@PEBDI@Z) sin resolver
+main_prac09.obj : error LNK2001: símbolo externo "public: __cdecl Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QEAA@XZ) sin resolver
+main_prac09.obj : error LNK2001: símbolo externo "public: __cdecl Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QEAA@XZ) sin resolver
+main_prac09.obj : error LNK2001: símbolo externo glfwGetProcAddress sin resolver
+main_prac09.obj : error LNK2001: símbolo externo aiGetMaterialTexture sin resolver
+main_prac09.obj : error LNK2001: símbolo externo glfwSetCursorPosCallback sin resolver
+main_prac09.obj : error LNK2001: símbolo externo glfwWindowShouldClose sin resolver
+C:\Users\licuadora\Documents\GitHub\ProyectoFinCG-Teoria\x64\Release\PF.exe : fatal error LNK1120: 22 externos sin resolver
